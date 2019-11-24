@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+article{
+    text-align: center;
+    padding-left: 80px;
+    padding-right: 80px;
+    font-size: 28px;
+}
+article ul{
+    text-decoration: none;
+}

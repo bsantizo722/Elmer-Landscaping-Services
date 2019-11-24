@@ -21,8 +21,8 @@ body header h1{
   letter-spacing: 0.5em;
   border: 7px solid black;
 }
-body header h1 img{
-  padding-right: 50px;
+body header h1 a:visited, h1 a:link{
+  text-decoration: none;
 }
 body{
   padding-left: 90px;
@@ -45,7 +45,7 @@ div.bar a:visited, nav a:link{
 }
 div.bar a:hover, nav a:active{
   text-decoration: none;
-  color: black;
+  color: rgb(22, 202, 22);
 }
 
 footer{
