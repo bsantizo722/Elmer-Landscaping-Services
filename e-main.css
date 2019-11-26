@@ -8,6 +8,8 @@ html{
     height: 100%;
 }
 
+/* 
+this was for the original but I guess not anymore
 body header h1{
   display: block;
   padding: 25px;
@@ -19,7 +21,8 @@ body header h1{
   font-family: cursive;
   letter-spacing: 0.5em;
   border: 7px solid black;
-}
+} */
+
 
 
 div.bar{
