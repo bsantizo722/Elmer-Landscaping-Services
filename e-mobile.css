@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+
+
+
+@charset "utf-8";
+/* this is the layout fior mobile */
+
+@import url("e-main.css");
+
+
+/* ============================================
+	Mobile Devices: 0 - 480 pixels
+   ============================================
+*/
+
+@media only screen and (max-width:480px){
+
+    div.bar{
+        font-size: 80px;
+        
+    }
+
+    article img{
+        height: 45px;
+        width: 45px;
+    }
+}
+
+
+/* ===================================================
+	Tablet and Desktop Devices: Greater than 480 pixels
+   ===================================================
+*/
+
+@media only screen and (min-width: 481px){
+
+}

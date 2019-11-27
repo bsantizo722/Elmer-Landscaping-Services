@@ -24,7 +24,6 @@ body header h1{
 } */
 
 
-
 div.bar{
   border: 3px solid black;
   margin: 30px;
@@ -47,6 +46,20 @@ div.bar a:hover, nav a:active{
 footer{
   border: 3px solid black;
   text-align: center;
+  width: 100%;
+  bottom: 0%;
 }
 
+footer.abs{
+  position: absolute;
+  border: 3px solid black;
+  width: 100%;
+  bottom: 0;
+}
+
+footer.regular{
+  border: 3px solid black;
+  width: 100%;
+  bottom: 0;
+}
 

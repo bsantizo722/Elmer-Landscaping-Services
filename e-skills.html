@@ -4,13 +4,20 @@
     <title>Elmers Landscape</title>
     <meta charset="utf-8">
     <link href="e-main.css" rel="stylesheet"/>
-    <link href="e-layout.css" rel="stylesheet"/>
+    <link href="e-grid2.css" rel="stylesheet"/>
 </head>
 
 <body>
     <header>
-        <a href="index.html" ><img src="logo.png" alt="logo" height="130px" 
-            width="1400px"/></a>
+        <div class="row">
+            <div class="row">
+                <div class="col-1-1">
+                    <figure>
+                        <a href="index.html"><img src="logo.png" alt="logo"></a>
+                    </figure>
+                </div>
+            </div>
+        </div>        
         <nav>
             <div class="bar">
                 <a href="index.html">Home</a>
@@ -23,6 +30,34 @@
 
     <article>
         <h1>What I do</h1>
+        <div class="row">
+            <div class="row">
+                <div class="col-1-2">
+                    <figcaption>
+                        <ul>
+                            <li>Lawn Maintnence</li>
+                            <li>Sod Installation</li>
+                            <li>Flowers & bush Planting</li>
+                            <li>Spring and Fall clean up</li>
+                            <li>Lawn Fertilization</li>
+                        </ul>
+                    </figcaption> 
+                </div>
+                <div class="col-1-2">
+                    <figcaption>
+                        <ul>
+                            <li>Irrigation system Installation</li>
+                            <li>Sprinkler Repair</li>
+                            <li>Landscape Rock Installation</li>
+                            <li>Weed Spraying</li>
+                            <li>Palm Tree skinning</li>
+                        </ul>
+                    </figcaption>
+                </div>
+            </div>
+        </div>
+    </article>
+    <!-- <h1>What I do</h1>
         <ul>
             <li>Lawn Maintnence</li>
             <li>Sod Installation- We throw soil on your grass to enrich it, 
@@ -36,12 +71,8 @@
             <li>Weed Spraying- We remove all growing & incoming roots with chemical sprays.</li>
             <li>Palm tree skinning</li>
             <li>Lawn Fertilization</li>
-        </ul>
-    </article>
-    
-    <footer>
-            All rights are reserved to &copy;Brandon corp
-    </footer>
+        </ul> -->
+    <footer class="abs">All rights are reserved to &copy;Brandon corp</footer>
 
 
 </body>

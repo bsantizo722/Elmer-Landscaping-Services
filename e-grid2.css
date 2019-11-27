@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+
+div.row{
+    clear: both;
+}
+div.row::after{
+    clear: both;
+    content: "";
+    display: table;
+}
+figure img{
+    width:100%;
+}
+
+figure{
+    margin:10px;
+}
+
+div.row{
+    clear: both;
+    margin: 0px 10px;
+}
+ 
+ /* Grid Columns Styles */
+ 
+div[class^="col-"]{
+    float: left;
+}
+div.col-1-1{width:100%}
+div.col-1-2{width: 50%}
+
+article{
+    text-align: center;
+    padding-left: 80px;
+    padding-right: 80px;
+    font-size: 28px;
+}
+
+
+
+

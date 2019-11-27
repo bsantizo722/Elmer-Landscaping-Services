@@ -10,15 +10,19 @@ article ul{
     text-decoration: none;
 }
 
-
-figcaption{
-    border: 5px solid black;
-    padding-top: 30px;
-    padding-bottom: 12px;
-    padding-left: 12px;
-    padding-right: 12px;
+div.col-1-3 p{
+    border: 3px solid black;
     text-align: center;
-    height: 120px;
-    width: 150px;
+    padding:20px;
+    margin:20px;
+
+
 }
+
+/* figcaption{
+    border: 5px solid black;
+    padding: auto;
+    text-align: center;
+    
+} */
 
