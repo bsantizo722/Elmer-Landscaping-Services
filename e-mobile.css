@@ -13,18 +13,40 @@
    ============================================
 */
 
-@media only screen and (max-width:480px){
+/* @media only screen and (max-width:480px){
 
-    div.bar{
-        font-size: 80px;
-        
+    body footer{
+        order: 100;
     }
-
+    body{
+        width: 100%;
+        font-size: 52px;
+    }
+    div.col-1-5{
+        width: 100%;
+        align-self: center;
+    }
+    figure img{
+        width:100%;
+    }
+    figure{
+        margin:10px;
+    }
     article img{
-        height: 45px;
-        width: 45px;
+       height: 200px;
+       width: 200px;
     }
-}
+    div.row p{
+        clear: both;
+        margin: 30px;
+        padding: 30px;
+    }
+    div.row::after{
+        clear: both;
+        content: "";
+        display: table;
+    }
+} */
 
 
 /* ===================================================
@@ -33,5 +55,5 @@
 */
 
 @media only screen and (min-width: 481px){
-
+    
 }
